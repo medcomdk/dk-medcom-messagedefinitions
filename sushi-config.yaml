@@ -22,6 +22,9 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 dependencies:
   hl7.fhir.dk.core: 3.2.0
   medcom.fhir.dk.core: 2.4.0
+  medcom.fhir.dk.messaging: 2.2.0
+  medcom.fhir.dk.terminology: 1.4.0
+
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the

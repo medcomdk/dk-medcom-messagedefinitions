@@ -1,0 +1,3 @@
+### Scope and usage 
+This is the MessageDefinition for the MedCom FHIR Achknowledgement. It defines the characteristics of the message that can be shared between systems.
+The MessageDefinition profile should not be included in the exchange of a MedCom FHIR message, but can be used to extract relevant information concerning the message, for usage in the VANSEnvelope. The MessageHeader profile in the corresponding standard includes a required url to the relevant MessageDefinition in the element MessageHeader.definition.
