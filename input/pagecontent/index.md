@@ -11,5 +11,3 @@ This IG contains MessageDefinitions for the following MedCom IGs:
 * MessageDefinition for [CareCommunication](https://medcomfhir.dk/ig/carecommunication/)
 * MessageDefinition for [HomeCareObservation](https://medcomfhir.dk/ig/homecareobservation/)
 * MessageDefinition for [HospitalNotification](https://medcomfhir.dk/ig/hospitalnotification/)
-
-[MedComConditionListCondition](./StructureDefinition-medcom-conditionlist-condition.html)
