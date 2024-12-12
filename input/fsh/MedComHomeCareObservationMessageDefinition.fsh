@@ -1,6 +1,6 @@
 Profile: MedComHomeCareObservationMessageDefinition
 Parent: MedComMessagingMessageDefinitionFhir 
-Id: medcom-homecareobservation-messagedefinition
+Id: medcom-homecareobservation-message-definition1.1
 Description: "The MessageDefinition for HomeCareObservation:1.0"
 * id = "MedComMessagingMessageDefinition-HomeCareObservation-1-0"
 * url = "urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0"
