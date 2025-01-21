@@ -3,24 +3,24 @@ Parent: MedComMessagingMessageDefinitionFhir
 Id: medcom-careCommunication-message-definition4.0
 Description: "The MessageDefinition for a CareCommunication messsage."
 * id = "MedComCareCommunicationMessageDefinition"
-* url = "urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:4.0"
+* url = "urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication" //Fjern version
 * identifier.period.start = "2024-06-18"
 * identifier.use = #official 
 * identifier.value = "CareCommunication"
 * version = "4.0"
 //* name = "HomeCareObservation:1.0"
 * title = "CareCommunication 4.0"
-//* replaces.value = "Eer.fhir.MessageDefinition.HomeCareObservation:2.0"
+* replaces.value = "Eer.fhir.MessageDefinition.HomeCareObservation:2.0" //Beskriver hvilken ældre version, den erstatter. Hvis der er en at erstatte.
 * status = #release
 * date = "2024-06-18"
 * copyright = "Copyright © 2023 MedCom"
 //* publisher = "MedCom"
 //InteroperabilityConsultant
-* contact[InteroperabilityConsultant].name = "Thea Sørensen"
+* contact[InteroperabilityConsultant].name = "Thea Sørensen" //Hvad gør vi emd kontakter? Også på tværs af standarder. Ikke nødvendigvis vores navn, men f.eks. MedCom FHIR team
 //* contact[InteroperabilityConsultant].telecom.system = #email
-* contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
+* contact[InteroperabilityConsultant].telecom.value = "FHIR@medcom.dk" //På alle
 //* contact[InteroperabilityConsultant].telecom.use = #work
-//SubjectMatterExpert
+//SubjectMatterExpert - Vi kan overveje at fjerne denne helt. Tjek om parent forventer det. Må gerne ændres i.
 * contact[SubjectMatterExpert].name = "Kirsten Christiansen"
 //* contact[SubjectMatterExpert].telecom.system = #email
 * contact[SubjectMatterExpert].telecom.value = "krc@medcom.dk" 
