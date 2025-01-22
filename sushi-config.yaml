@@ -8,10 +8,10 @@ canonical: http://medcomfhir.dk/ig/messagedefinitions/ImplementationGuide/medcom
 name: dk-medcom-messagedefinitions
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
-status: draft # draft | active | retired | unknown
-version: 0.1.0
+status: active # draft | active | retired | unknown
+version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2024+
+copyrightYear: 2025+
 releaseLabel: ci-build
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
@@ -22,8 +22,8 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 dependencies:
   hl7.fhir.dk.core: 3.2.0
   medcom.fhir.dk.core: 2.4.0
-  medcom.fhir.dk.messaging: 2.2.0
-  medcom.fhir.dk.terminology: 1.4.0
+  medcom.fhir.dk.messaging: 3.0.0
+  medcom.fhir.dk.terminology: 1.8.0
 
   # email: test@example.org
 

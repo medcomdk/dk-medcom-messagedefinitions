@@ -1,4 +1,4 @@
-Profile: MedComAcknowledgementMessageDefinition
+/*Profile: MedComAcknowledgementMessageDefinition
 Parent: MedComMessagingMessageDefinitionFhir
 Id: medcom-acknowledgement-message-definition2.0
 Description: "The MessageDefinition for a MedCom Acknowledgement message"

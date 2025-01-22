@@ -1,4 +1,4 @@
-Profile: MedComCareCommunicationMessageDefinition
+/*Profile: MedComCareCommunicationMessageDefinition
 Parent: MedComMessagingMessageDefinitionFhir
 Id: medcom-careCommunication-message-definition4.0
 Description: "The MessageDefinition for a CareCommunication messsage."
