@@ -9,4 +9,4 @@ InstanceOf: MedComHomeCareObservationMessageDefinition
 * description = "DK: HomeCareObservation (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.valueCodeableConcept.text = "DK: kommuner og primærsektoren. (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende sundhedsobservationer mellem kommuners akutsygepleje og en patients praktiserende læge (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
-* eventCoding = $MessageEvents#homecareobservation-message "HomeCare Observation Message"
+* eventCoding = $MessageEvents#homecareobservation-message "HomeCare Observation Message" 

@@ -17,4 +17,4 @@ Description: "The MessageDefinition for HomeCareObservation"
 * useContext.valueCodeableConcept.text = "DK: kommuner og primærsektoren. (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende sundhedsobservationer mellem kommuners akutsygepleje og en patients praktiserende læge (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#homecareobservation-message "HomeCare Observation Message"
-//* replaces.value = "Eer.fhir.MessageDefinition.HomeCareObservation:2.0" //
+//* replaces.value = "Eer.fhir.MessageDefinition.HomeCareObservation:2.0" // 
