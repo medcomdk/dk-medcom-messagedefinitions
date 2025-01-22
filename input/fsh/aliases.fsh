@@ -9,3 +9,4 @@ Alias: $CodeCode = http://hl7.org/fhir/issue-type
 Alias: $ActivityCode = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-activityCodes
 Alias: $IssueValues = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-acknowledgement-issue-details
 Alias: $IssueCodes = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-acknowledgement-error-codes
+Alias: $messageSignificanceCategory = http://hl7.org/fhir/ValueSet/message-significance-category
