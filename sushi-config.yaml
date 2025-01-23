@@ -35,6 +35,8 @@ dependencies:
 parameters:  
   apply-version: false
   default-version: true
+  apply-publisher: false
+  default-publisher: true
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
