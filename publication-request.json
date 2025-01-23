@@ -1,0 +1,14 @@
+{
+    "package-id": "medcom.fhir.dk.messagedefinitions",
+    "version": "1.0.0",
+    "path": "http://medcomfhir.dk/ig/messagedefinitions/1.0.0",
+    "status": "release",
+    "sequence": "Release",
+    "first" : true,
+    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-medcom-messagedefinitions",
+    "milestone" : true,
+    "title": "MessageDefinition IG of the MedCom Message profiles",
+    "category": "MessageDefinitions",
+    "introduction": "The MessageDefinition IG contains the collection of all MedCom MessageDefinitions inherited from MedComMessagingMessageDefinitionFHIR related to specifik MedCom FHIR messaging standards.",
+    "descmd": "@release-notes.md"
+}
