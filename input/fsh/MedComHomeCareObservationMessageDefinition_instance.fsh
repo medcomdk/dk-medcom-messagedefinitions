@@ -11,4 +11,4 @@ InstanceOf: MedComHomeCareObservationMessageDefinition
 * purpose = "DK: Sende sundhedsobservationer mellem kommuners akutsygepleje og en patients praktiserende læge (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#homecareobservation-message "HomeCare Observation Message"
 //* responseRequired = #always
-//* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/acknowledgement/ImplementationGuide/medcom.fhir.dk.acknowledgement"
+* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/messagedefinitions/StructureDefinition/medcom-acknowledgement-message-definition2.0"
