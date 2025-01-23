@@ -7,7 +7,9 @@ Description: "The MessageDefinition for HomeCareObservation"
 * identifier.period.start = "2025-01-31"
 * identifier.use = #official
 * identifier.value = "HomeCareObservation"
+* version MS
 * version = "1.1"
+//* ^version = "1.2.3"
 * name = "HomeCareObservation"
 * title = "HomeCareObservationMessageDefinition"
 * status = #active

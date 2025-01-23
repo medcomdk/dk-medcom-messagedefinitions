@@ -4,6 +4,7 @@ InstanceOf: MedComHomeCareObservationMessageDefinition
 * url = "urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation"
 * identifier.period.start = "2025-01-31"
 * version = "1.1"
+//* ^version = "1.1"
 * name = "HomeCareObservation"
 * copyright = "Copyright © 2025 MedCom"
 * description = "DK: HomeCareObservation (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
