@@ -1,4 +1,3 @@
-/*
 Profile: MedComCareCommunicationMessageDefinition
 Parent: MedComMessagingMessageDefinitionFhir
 Id: medcom-careCommunication-message-definition4.0
@@ -34,5 +33,3 @@ Description: "The MessageDefinition for a CareCommunication messsage."
 //* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement:2.0"
 //* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/acknowledgement/ImplementationGuide/medcom.fhir.dk.acknowledgement"
 //* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/carecommunication/StructureDefinition/medcom-careCommunication-message"
-
-*/

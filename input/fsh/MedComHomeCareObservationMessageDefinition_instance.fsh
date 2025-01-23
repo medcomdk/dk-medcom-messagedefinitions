@@ -10,3 +10,5 @@ InstanceOf: MedComHomeCareObservationMessageDefinition
 * useContext.valueCodeableConcept.text = "DK: kommuner og primærsektoren. (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende sundhedsobservationer mellem kommuners akutsygepleje og en patients praktiserende læge (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#homecareobservation-message "HomeCare Observation Message"
+//* responseRequired = #always
+//* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/acknowledgement/ImplementationGuide/medcom.fhir.dk.acknowledgement"

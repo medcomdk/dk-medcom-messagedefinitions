@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: medcom.fhir.dk.messagedefinitions
-canonical: http://medcomfhir.dk/ig/messagedefinitions/ImplementationGuide/medcom.fhir.dk.messagedefinitions
+canonical: http://medcomfhir.dk/ig/messagedefinitions
 name: dk-medcom-messagedefinitions
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
@@ -22,7 +22,8 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 dependencies:
   hl7.fhir.dk.core: 3.2.0
   medcom.fhir.dk.core: 2.4.0
-  medcom.fhir.dk.messaging: 3.0.0
+#  medcom.fhir.dk.messaging: 3.0.0
+  medcom.fhir.dk.messaging: current
   medcom.fhir.dk.terminology: 1.8.0
 
   # email: test@example.org

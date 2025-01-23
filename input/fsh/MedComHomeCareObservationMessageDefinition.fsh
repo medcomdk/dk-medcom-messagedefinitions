@@ -18,3 +18,8 @@ Description: "The MessageDefinition for HomeCareObservation"
 * purpose = "DK: Sende sundhedsobservationer mellem kommuners akutsygepleje og en patients praktiserende læge (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#homecareobservation-message "HomeCare Observation Message"
 //* replaces.value = "Eer.fhir.MessageDefinition.HomeCareObservation:2.0" //
+* responseRequired MS 
+* responseRequired = #always
+* allowedResponse MS
+//* allowedResponse[0].message.value = http://medcomfhir.dk/ig/messagedefinitions/ImplementationGuide/medcom.fhir.dk.messagedefinitions/StructureDefinition/medcom-acknowledgement-message-definition2.0
+//* allowedResponse[0].message.value = "http://medcomfhir.dk/ig/messagedefinitions/StructureDefinition/medcom-acknowledgement-message-definition2.0"
