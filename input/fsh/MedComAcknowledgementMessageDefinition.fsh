@@ -1,4 +1,4 @@
-Profile: MedComAcknowledgementMessageDefinition
+/*Profile: MedComAcknowledgementMessageDefinition
 Parent: MedComMessagingMessageDefinitionFhir
 Id: medcom-acknowledgement-message-definition2.0
 Description: "The MessageDefinition for a MedCom Acknowledgement message"
@@ -17,6 +17,7 @@ Description: "The MessageDefinition for a MedCom Acknowledgement message"
 * purpose = "DK: At kvittere for en modtaget meddelelse samt, om overførslen af meddelelsen var vellykket, og om meddelelsen validerede korrekt eller ej. MedCom Acknowledgement standard skal sendes hver gang et system har modtaget en MedCom FHIR-meddelelse eksempelvis HospitalNotification og CareCommunication. (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#acknowledgement-message "Acknowledgement Message"
 * responseRequired = #never
+*/
 //* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement:2.0"
 //* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/acknowledgement/ImplementationGuide/medcom.fhir.dk.acknowledgement"
 //* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/carecommunication/StructureDefinition/medcom-careCommunication-message"
