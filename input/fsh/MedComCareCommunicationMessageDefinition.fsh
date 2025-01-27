@@ -1,3 +1,4 @@
+/*
 Profile: MedComCareCommunicationMessageDefinition
 Parent: MedComMessagingMessageDefinitionFhir
 Id: medcom-careCommunication-message-definition4.0
@@ -18,6 +19,7 @@ Description: "The MessageDefinition for a CareCommunication messsage."
 * purpose = "DK: Korrespondancemeddelelsen anvendes til sikker elektronisk kommunikation af personhenførbare oplysninger og anvendes typisk til ad hoc kommunikation. (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#care-communication-message "Care Communication Message"
 * responseRequired = #always
+*/
 //* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement:2.0"
 //* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/acknowledgement/ImplementationGuide/medcom.fhir.dk.acknowledgement"
 //* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/carecommunication/StructureDefinition/medcom-careCommunication-message"
