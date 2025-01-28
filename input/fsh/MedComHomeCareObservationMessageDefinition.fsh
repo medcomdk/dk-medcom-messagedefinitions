@@ -2,7 +2,7 @@ Profile: MedComHomeCareObservationMessageDefinition
 Parent: MedComMessagingMessageDefinitionFhir
 Id: medcom-homecareobservation-message-definition
 Description: "The MessageDefinition for HomeCareObservation"
-* id = "MedComHomeCareObservationMessageDefinition"
+* id = "MedCom-HomeCareObservation-MessageDefinition"
 * url = "urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation"
 * identifier.period.start = "2025-01-31"
 * identifier.use = #official
