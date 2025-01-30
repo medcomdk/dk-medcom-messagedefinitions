@@ -20,8 +20,8 @@ Description: "The MessageDefinition for Acknowledgement"
 * eventCoding = $MessageEvents#acknowledgement-message "Acknowledgement Message"
 //* replaces.value = "Eer.fhir.MessageDefinition.HomeCareObservation" //
 * responseRequired MS 
-* responseRequired = #always
-* allowedResponse MS
+* responseRequired = #never
+* allowedResponse 0..0
 
 //* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement"
 //* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/acknowledgement/ImplementationGuide/medcom.fhir.dk.acknowledgement"
