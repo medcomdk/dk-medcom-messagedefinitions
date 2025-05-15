@@ -6,9 +6,10 @@
     "sequence": "Release",
     "first" : true,
     "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-medcom-messagedefinitions",
-    "milestone" : true,
+    "mode" : "milestone",
     "title": "MessageDefinition IG of the MedCom Message profiles",
-    "category": "MessageDefinitions",
-    "introduction": "The MessageDefinition IG contains the collection of all MedCom MessageDefinitions inherited from MedComMessagingMessageDefinitionFHIR related to specifik MedCom FHIR messaging standards.",
-    "descmd": "@release-notes.md"
+    "category": "Communications",
+    "introduction": "The MessageDefinition IG contains the collection of all MedCom MessageDefinitions inherited from MedComMessagingMessageDefinitionFHIR related to specific MedCom FHIR messaging standards.",
+    "descmd": "@release-notes.md",
+    "desc": "First release"
 }
