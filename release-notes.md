@@ -1,1 +1,1 @@
-First release
+First release - A collection of messagedefintions for use in three different IGs. Acknowledgement 2.0, CareCommunication 5.0 and HomeCareObservation 1.1

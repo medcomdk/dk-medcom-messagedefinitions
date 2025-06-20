@@ -1,9 +1,9 @@
 {
     "package-id": "medcom.fhir.dk.messagedefinitions",
-    "version": "1.0.0",
-    "path": "http://medcomfhir.dk/ig/messagedefinitions/1.0.0",
-    "status": "release",
-    "sequence": "Release",
+    "version": "1.0.0-trial-use",
+    "path": "http://medcomfhir.dk/ig/messagedefinitions/1.0.0-trial-use",
+    "status": "draft",
+    "sequence": "Release 1.0",
     "first" : true,
     "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-medcom-messagedefinitions",
     "mode" : "milestone",

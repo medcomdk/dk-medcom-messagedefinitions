@@ -3,11 +3,11 @@ canonical: http://medcomfhir.dk/ig/messagedefinitions
 name: dk-medcom-messagedefinitions
 title: MedCom MessageDefinitions
 description: The MessageDefinitions IG contains the collection of all MedCom MessageDefinitions inherited from MedComMessagingMessageDefinitionFHIR related to specific MedCom FHIR messaging standards
-status: active # draft | active | retired | unknown
-version: 1.0.0
+status: draft # draft | active | retired | unknown
+version: 1.0.0-trial-use
 fhirVersion: 4.0.1
 copyrightYear: 2025+
-releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 publisher:
   name: MedCom
   url: http://www.medcom.dk
@@ -22,7 +22,6 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 dependencies:
   hl7.fhir.dk.core: 3.2.0
   medcom.fhir.dk.core: 2.4.0
-  medcom.fhir.dk.messaging: 3.0.0
   medcom.fhir.dk.terminology: 1.8.1
 
 parameters:  
@@ -32,8 +31,11 @@ parameters:
   default-publisher: true
 
 menu:
+  Table of Contents: toc.html
   Home: index.html
+  Profiles: profiles.html
   Artifacts: artifacts.html
+  Downloads: downloads.html
 
 instanceOptions:
   manualSliceOrdering: true # true | false
