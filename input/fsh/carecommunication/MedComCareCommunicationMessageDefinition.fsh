@@ -6,5 +6,5 @@ Description: "The parent of all CareCommunication MessageDefinitions"
 
 * responseRequired = #always
 
-* allowedResponse 1..*
-// TODO: Figure out if there are multiple types of allowedResponses (e.g. ack and carecommunication)
+// NOTE: Atleast two type of allowedresponses, ack or another carecommunication msg
+* allowedResponse 2..*
