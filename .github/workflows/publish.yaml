@@ -1,6 +1,6 @@
 on:
   push:
-    tags: [ '^ig-release\/[0-9]+.[0-9]+.[0-9]$' ]
+    tags: [ '^ig-release\/[0-9]+.[0-9]+.[0-9]' ]
 
 jobs:
   publish:
