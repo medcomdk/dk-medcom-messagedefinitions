@@ -1,12 +1,13 @@
 on:
   push:
-    tags: [ '^ig-release\/[0-9]+.[0-9]+.[0-9]' ]
+    tags:
+      - 'ig-release/*'
 
 jobs:
   publish:
     uses: medcomdk/fhir-publishing/.github/workflows/publish.yaml@main
     with:
-      RELEASE_VERSION: ${{ github.ref_name }}
+      RELEASE_VERSION: ${{ replace(github.ref_name, 'ig-release/', '') }}
       FHIR_PUBLICATION_BOT_APP_ID: ${{ vars.FHIR_PUBLICATION_BOT_APP_ID }}
     secrets:
       PUBLISHER_APP_PRIVATE_KEY: ${{ secrets.PUBLISHER_APP_PRIVATE_KEY }}
