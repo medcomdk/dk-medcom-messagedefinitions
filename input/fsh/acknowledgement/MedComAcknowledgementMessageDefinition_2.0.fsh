@@ -17,5 +17,13 @@ Usage: #definition
 * useContext.valueCodeableConcept.text = "DK: Alle systemer i det danske sundhedsvæsen der vil kvittere for modtagelse af beskeder. (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: At kvittere for en modtaget meddelelse samt, om overførslen af meddelelsen var vellykket, og om meddelelsen validerede korrekt eller ej. MedCom Acknowledgement standard skal sendes hver gang et system har modtaget en MedCom FHIR-meddelelse eksempelvis HospitalNotification og CareCommunication. (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 
-* eventCoding.system = $MessageEvents
-* eventCoding.code = #acknowledgement-message
+* eventCoding
+  * system = $MessageEvents
+  * code = #acknowledgement-message
+
+* contact[AuthorOrganization]
+  * name = "MedCom FHIR Team"
+  * telecom[0]
+    * system = #email
+    * value  = "fhir@medcom.dk"
+    * use    = #work

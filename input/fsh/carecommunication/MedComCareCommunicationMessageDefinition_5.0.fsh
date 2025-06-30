@@ -17,8 +17,9 @@ Usage: #definition
 * useContext.valueCodeableConcept.text = "DK: Alle sundhedsvæsnets parter der er involverede i behandling og omsorg af borgere eller patienter, herunder læger, hjemmepleje, fysioterapeuter, ergoterapeuter, plejeteam, sygeplejersker, psykologer, psykiater og mange flere. (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Korrespondancemeddelelsen anvendes til sikker elektronisk kommunikation af personhenførbare oplysninger og anvendes typisk til ad hoc kommunikation. (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 
-* eventCoding.system = $MessageEvents
-* eventCoding.code = #care-communication-message
+* eventCoding
+  * system = $MessageEvents
+  * code = #care-communication-message
 
 * allowedResponse[+].message = Canonical(MedComAcknowledgementMessageDefinition2.0)
 * allowedResponse[+].message = Canonical(MedComCareCommunicationMessageDefinition5.0)

@@ -2,7 +2,10 @@ Profile: MedComCareCommunicationMessageDefinition
 Parent: MedComMessagingMessageDefinitionFhir
 Id: medcom-careCommunication-message-definition
 Description: "The parent of all CareCommunication MessageDefinitions"
-* eventCoding only Coding
+* event[x] only Coding
+* eventCoding
+  * system = $MessageEvents
+  * code = #care-communication-message
 
 * responseRequired = #always
 
