@@ -2,7 +2,7 @@ id: medcom.fhir.dk.messagedefinitions
 canonical: http://medcomfhir.dk/ig/messagedefinitions
 name: dk-medcom-messagedefinitions
 title: MedCom MessageDefinitions
-description: The MessageDefinitions IG contains the collection of all MedCom MessageDefinitions inherited from MedComMessagingMessageDefinitionFHIR related to specific MedCom FHIR messaging standards
+description: Collection of all MedCom MessageDefinitions
 status: draft # draft | active | retired | unknown
 version: 1.0.0-trial-use
 fhirVersion: 4.0.1
