@@ -1,1 +1,1 @@
-First release - A collection of messagedefintions for use in three different IGs. Acknowledgement 2.0, CareCommunication 5.0 and HomeCareObservation 1.1
+Breaking change that changes the URL of the MessageDefinitions so that dependents will need to use a versioned URL with the pipe | symbol

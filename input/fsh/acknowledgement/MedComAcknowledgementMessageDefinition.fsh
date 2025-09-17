@@ -2,6 +2,7 @@ Profile: MedComAcknowledgementMessageDefinition
 Parent: MedComMessagingMessageDefinitionFhir
 Id: medcom-acknowledgement-message-definition
 Description: "The parent of all Acknowledgement MessageDefinitions"
+* url = "http://medcomfhir.dk/ig/messagedefinitions/MessageDefinition/MedComAcknowledgementMessageDefinition"
 * event[x] only Coding
 * eventCoding
   * system = $MessageEvents
@@ -9,5 +10,4 @@ Description: "The parent of all Acknowledgement MessageDefinitions"
 
 * responseRequired = #never
 * allowedResponse 0..0
-
 * contact[AuthorOrganization] 1..1 MS 

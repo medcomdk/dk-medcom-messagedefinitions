@@ -1,7 +1,6 @@
-Instance: MedComAcknowledgementMessageDefinition2.0
+Instance: MedComAcknowledgementMessageDefinitionV2.0
 InstanceOf: MedComAcknowledgementMessageDefinition
 Usage: #definition
-* url = Canonical(MedComAcknowledgementMessageDefinition2.0)
 * version = "2.0"
 * title = "Acknowledgement 2.0"
 * name = "Acknowledgement_MessageDefinition_2.0"

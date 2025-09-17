@@ -1,7 +1,6 @@
-Instance: MedComHomeCareObservationMessageDefinition1.1
+Instance: MedComHomeCareObservationMessageDefinitionV1.1
 InstanceOf: MedComHomeCareObservationMessageDefinition
 Usage: #definition
-* url = Canonical(MedComHomeCareObservationMessageDefinition1.1)
 * version = "1.1"
 * title = "HomeCareObservation 1.1"
 * name = "HomeCareObservation_MessageDefinition_1.1"
@@ -21,4 +20,4 @@ Usage: #definition
   * system = $MessageEvents
   * code = #homecareobservation-message
 
-* allowedResponse[+].message = Canonical(MedComAcknowledgementMessageDefinition2.0)
+* allowedResponse[+].message = "http://medcomfhir.dk/ig/messagedefinitions/MessageDefinition/MedComAcknowledgementMessageDefinition|2.0"

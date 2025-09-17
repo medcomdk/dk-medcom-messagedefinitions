@@ -1,7 +1,6 @@
-Instance: MedComCareCommunicationMessageDefinition5.0
+Instance: MedComCareCommunicationMessageDefinitionV5.0
 InstanceOf: MedComCareCommunicationMessageDefinition
 Usage: #definition
-* url = Canonical(MedComCareCommunicationMessageDefinition5.0)
 * version = "5.0"
 * title = "CareCommunication 5.0"
 * name = "CareCommunication_MessageDefinition_5.0"
@@ -21,5 +20,5 @@ Usage: #definition
   * system = $MessageEvents
   * code = #care-communication-message
 
-* allowedResponse[+].message = Canonical(MedComAcknowledgementMessageDefinition2.0)
-* allowedResponse[+].message = Canonical(MedComCareCommunicationMessageDefinition5.0)
+* allowedResponse[+].message = "http://medcomfhir.dk/ig/messagedefinitions/MessageDefinition/MedComAcknowledgementMessageDefinition|2.0"
+* allowedResponse[+].message = "http://medcomfhir.dk/ig/messagedefinitions/MessageDefinition/MedComCareCommunicationMessageDefinition|5.0"
