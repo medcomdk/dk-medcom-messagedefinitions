@@ -4,7 +4,7 @@ name: dk-medcom-messagedefinitions
 title: MedCom MessageDefinitions
 description: Collection of all MedCom MessageDefinitions
 status: draft # draft | active | retired | unknown
-version: 1.0.1-trial-use
+version: 1.0.0
 fhirVersion: 4.0.1
 copyrightYear: 2025+
 releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use

@@ -1,1 +1,1 @@
-Breaking change that changes the URL of the MessageDefinitions so that dependents will need to use a versioned URL with the pipe | symbol
+First official release with messagedefinitions for acknowledgement, carecommunication and homecareobservation
